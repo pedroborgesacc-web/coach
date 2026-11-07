@@ -8,7 +8,17 @@ export const parseISO = (s: string) => {
   const [y, m, d] = s.split('-').map(Number)
   return new Date(y, m - 1, d)
 }
-export const todayISO = () => iso(new Date())
+/** Fuso horário da app: hora de Miami, seja qual for o fuso do telemóvel */
+export const TIME_ZONE = 'America/New_York'
+const tzFmt = new Intl.DateTimeFormat('en-US', {
+  timeZone: TIME_ZONE, year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hourCycle: 'h23',
+})
+/** Data e hora "de parede" em Miami */
+export const miamiNow = () => {
+  const p = Object.fromEntries(tzFmt.formatToParts(new Date()).map((x) => [x.type, x.value]))
+  return { date: `${p.year}-${p.month}-${p.day}`, min: (Number(p.hour) % 24) * 60 + Number(p.minute) }
+}
+export const todayISO = () => miamiNow().date
 export const addDays = (s: string, n: number) => {
   const d = parseISO(s)
   d.setDate(d.getDate() + n)
@@ -33,10 +43,7 @@ export const toMin = (t: string) => {
   return h * 60 + m
 }
 export const fmtTime = (t: string) => t.replace(/^0/, '')
-export const nowMin = () => {
-  const d = new Date()
-  return d.getHours() * 60 + d.getMinutes()
-}
+export const nowMin = () => miamiNow().min
 export const sleepDuration = (bed: string, wake: string) => {
   let m = toMin(wake) - toMin(bed)
   if (m <= 0) m += 1440
