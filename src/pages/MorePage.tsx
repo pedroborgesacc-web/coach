@@ -113,7 +113,7 @@ export default function MorePage() {
           <li>Abre a app pelo ícone «Coach». Funciona sem internet.</li>
         </ol>
       </div>
-      <p className="pb-4 text-center text-xs muted">Coach do Pedro · os dados não saem do telemóvel</p>
+      <p className="pb-4 text-center text-xs muted">Coach do Pedro · versão de {__BUILD__} (hora de Miami)<br />Os dados não saem do telemóvel</p>
     </div>
   )
 }
