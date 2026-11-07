@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+.dark { color-scheme: dark; }
+html, body { background: #f8fafc; -webkit-tap-highlight-color: transparent; overscroll-behavior-y: none; }
+.dark body, html.dark { background: #0b1120; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', system-ui, sans-serif; }
+.pt-safe { padding-top: max(env(safe-area-inset-top), 12px); }
+.pb-safe { padding-bottom: env(safe-area-inset-bottom); }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
+input[type=number] { -moz-appearance: textfield; }
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+
+@layer components {
+  .card { @apply rounded-2xl bg-white dark:bg-slate-900 border border-slate-200/70 dark:border-slate-800 p-4; }
+  .btn { @apply inline-flex items-center justify-center gap-1 rounded-xl px-3 py-2 text-sm font-semibold active:scale-95 transition; }
+  .btn-primary { @apply btn bg-slate-900 text-white dark:bg-white dark:text-slate-900; }
+  .btn-ghost { @apply btn bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-200; }
+  .h1 { @apply text-2xl font-bold tracking-tight text-slate-900 dark:text-white; }
+  .muted { @apply text-slate-500 dark:text-slate-400; }
+  .input { @apply w-full rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2 text-base text-slate-900 dark:text-white outline-none focus:ring-2 focus:ring-blue-400; }
+  .chip { @apply inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-medium bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300; }
+}

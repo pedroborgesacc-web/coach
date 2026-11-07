@@ -1,0 +1,13 @@
+import type { SVGProps } from 'react'
+const base = (p: SVGProps<SVGSVGElement>) => ({ width: 22, height: 22, viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', strokeWidth: 2, strokeLinecap: 'round' as const, strokeLinejoin: 'round' as const, ...p })
+export const IconToday = (p: SVGProps<SVGSVGElement>) => (<svg {...base(p)}><rect x="3" y="4" width="18" height="18" rx="3" /><path d="M16 2v4M8 2v4M3 10h18" /><circle cx="12" cy="15" r="1.5" fill="currentColor" /></svg>)
+export const IconDumbbell = (p: SVGProps<SVGSVGElement>) => (<svg {...base(p)}><path d="M6 7v10M18 7v10M3 9.5v5M21 9.5v5M6 12h12" /></svg>)
+export const IconChart = (p: SVGProps<SVGSVGElement>) => (<svg {...base(p)}><path d="M3 3v18h18" /><path d="m7 15 4-4 3 3 5-6" /></svg>)
+export const IconPot = (p: SVGProps<SVGSVGElement>) => (<svg {...base(p)}><path d="M4 10h16v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z" /><path d="M2 10h20M9 6c0-1 1-1 1-2M14 6c0-1 1-1 1-2" /></svg>)
+export const IconMore = (p: SVGProps<SVGSVGElement>) => (<svg {...base(p)}><circle cx="5" cy="12" r="1.5" fill="currentColor" /><circle cx="12" cy="12" r="1.5" fill="currentColor" /><circle cx="19" cy="12" r="1.5" fill="currentColor" /></svg>)
+export const IconCheck = (p: SVGProps<SVGSVGElement>) => (<svg {...base(p)} strokeWidth={3}><path d="m5 12 5 5 9-10" /></svg>)
+export const IconChevron = (p: SVGProps<SVGSVGElement> & { dir?: 'left' | 'right' }) => (<svg {...base(p)}>{p.dir === 'left' ? <path d="m15 18-6-6 6-6" /> : <path d="m9 18 6-6-6-6" />}</svg>)
+export const IconMoon = (p: SVGProps<SVGSVGElement>) => (<svg {...base(p)}><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" /></svg>)
+export const IconDrop = (p: SVGProps<SVGSVGElement>) => (<svg {...base(p)}><path d="M12 2.7s7 7.3 7 12.3a7 7 0 1 1-14 0c0-5 7-12.3 7-12.3z" /></svg>)
+export const IconTimer = (p: SVGProps<SVGSVGElement>) => (<svg {...base(p)}><circle cx="12" cy="13" r="8" /><path d="M12 9v4l2 2M9 2h6" /></svg>)
+export const IconBell = (p: SVGProps<SVGSVGElement>) => (<svg {...base(p)}><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9" /><path d="M10.3 21a1.9 1.9 0 0 0 3.4 0" /></svg>)
