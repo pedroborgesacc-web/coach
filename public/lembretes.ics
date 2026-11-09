@@ -25,259 +25,1371 @@ END:VTIMEZONE
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:coach-pedro-1-seg@coach
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=America/New_York:20261109T230500
-DURATION:PT10M
+UID:coach-seg-0645acordar-copo-de-a-gua-10-min-sem-telemo-@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261116T064500
+DURATION:PT5M
 RRULE:FREQ=WEEKLY;BYDAY=MO
-SUMMARY:🌙 Hora de ir para a cama
-DESCRIPTION:Higiene, telemóvel fora do quarto, alarme 6:45. Dormir às 23:
- 30.
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🌙 Hora de ir para a cama
-TRIGGER:PT0M
-END:VALARM
+SUMMARY:🌙 Acordar\, copo de água\, 10 min sem telemóvel
+DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:coach-pedro-2-seg@coach
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=America/New_York:20261109T224500
-DURATION:PT10M
-RRULE:FREQ=WEEKLY;BYDAY=MO
-SUMMARY:🎒 Preparar terça
-DESCRIPTION:Preparar para terça: abre a app e marca a checklist.
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎒 Preparar terça
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:coach-pedro-3-seg@coach
-DTSTAMP:20261107T000000Z
+UID:coach-seg-0650casa-de-banho-e-roupa-de-treino@coach-pedro
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/New_York:20261116T065000
 DURATION:PT10M
 RRULE:FREQ=WEEKLY;BYDAY=MO
-SUMMARY:⚖️ Pesar em jejum
-DESCRIPTION:Depois da casa de banho, antes de comer. Regista na app.
+SUMMARY:🎒 Casa de banho e roupa de treino
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-seg-0700pre-treino@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261116T070000
+DURATION:PT10M
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:🍽️ Pré-treino
+DESCRIPTION:Banana e café\n≈ 110 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-seg-0710mala-te-rmica-do-frigori-fico-com-gelo-m@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261116T071000
+DURATION:PT5M
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:🎒 Mala térmica do frigorífico com gelo\, mochila e garrafa
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-seg-0715carro-chamadas-para-portugal-12h15-13h-e@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261116T071500
+DURATION:PT50M
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:🇵🇹 Carro: chamadas para Portugal (12h15–13h em Lisboa) ou 
+ áudio do exame de real estate da Florida
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-seg-0815treino-push-no-gymage@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261116T081500
+DURATION:PT70M
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:🏋️ Treino Push no Gymage
+DESCRIPTION:Supino inclinado com halteres: 4 × 6–10\nDips: 3 × 8–12\n
+ Press de ombros sentado: 3 × 8–10\nCrucifixo no cabo: 3 × 12–15\nEle
+ vações laterais: 4 × 12–20\nExtensão de tríceps no cabo: 3 × 10–
+ 15\nRegista as séries na app.
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-seg-0925duche-e-vestir@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261116T092500
+DURATION:PT20M
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:🎒 Duche e vestir
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-seg-0950pequeno-almoc-o-no-cafe-@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261116T095000
+DURATION:PT10M
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:🍽️ Pequeno-almoço no café
+DESCRIPTION:Overnight oats (200 g skyr\, 1 scoop proteína\, 50 g aveia\, f
+ rutos vermelhos)\, 2 ovos cozidos\, 5 g creatina\n50 g proteína · ≈ 62
+ 0 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-seg-1000portugal-chamadas-clientes-equipa-15h-16@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261116T100000
+DURATION:PT90M
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:🇵🇹 Portugal: chamadas\, clientes\, equipa (15h–16h30 em Lis
+ boa)
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-seg-1130estudo-do-exame-ou-conteu-do-para-o-inst@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261116T113000
+DURATION:PT75M
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:🇵🇹 Estudo do exame ou conteúdo para o Instagram
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-seg-1245almoc-o-aquecido-no-staff@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261116T124500
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:🍽️ Almoço\, aquecido no staff
+DESCRIPTION:180 g frango\, 100 g arroz\, legumes\, 1 colher azeite\n45 g pr
+ oteína · ≈ 700 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-seg-1315pausa-caminhar-ou-descansar@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261116T131500
+DURATION:PT35M
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:🌙 Pausa: caminhar ou descansar
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-seg-1400turno-no-gymage-beber-1-l-de-a-gua@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261116T140000
+DURATION:PT480M
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:💼 Turno no Gymage — beber 1 L de água
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-seg-1630refeic-a-o-no-turno@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261116T163000
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:🍽️ ~Refeição no turno
+DESCRIPTION:Wrap integral com 120 g frango\, queijo fresco e alface\n35 g p
+ roteína · ≈ 420 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-seg-1930refeic-a-o-no-turno@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261116T193000
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:🍽️ ~Refeição no turno
+DESCRIPTION:200 g skyr\, 1 banana\, 25 g amêndoas\n25 g proteína · ≈ 3
+ 85 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-seg-2200carro-para-casa-nada-exigente@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261116T220000
+DURATION:PT35M
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:🎒 Carro para casa\, nada exigente
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-seg-2235ceia@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261116T223500
+DURATION:PT10M
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:🍽️ Ceia
+DESCRIPTION:200 g cottage com frutos vermelhos\n25 g proteína · ≈ 240 k
+ cal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-seg-2245preparar-terc-a@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261109T224500
+DURATION:PT20M
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:🎒 Preparar terça
+DESCRIPTION:Preparar para terça:\n• Overnight oats no frigorífico\n• 
+ 2 ovos cozidos\n• Caixa do almoço\n• Wrap embrulhado em alumínio\n
+ • Kit de skyr (pote 200 g\, banana\, 25 g amêndoas)\n• Tudo na mala t
+ érmica no frigorífico e gelo no congelador\n• Mochila: roupa de trabal
+ ho\, toalha\, chinelos\, desodorizante\, portátil\, carregador\, ausculta
+ dores\n• Roupa de treino na cadeira e garrafa lavada
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚖️ Pesar em jejum
+DESCRIPTION:Preparar terça
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:coach-pedro-4-ter@coach
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=America/New_York:20261110T230000
+UID:coach-seg-2305higiene-telemo-vel-fora-do-quarto-alarme@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261109T230500
+DURATION:PT25M
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:🌙 Higiene\, telemóvel fora do quarto\, alarme 6:45
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hora de ir para a cama
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-seg-2330dormir@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261109T233000
+DURATION:PT435M
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:🌙 Dormir
+DESCRIPTION:23:30 → 06:45
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-seg-pesar@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261116T065000
+DURATION:PT5M
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:⚖️ Pesar em jejum
+DESCRIPTION:Depois da casa de banho\, antes de comer. Regista na app.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pesar em jejum
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-ter-0645acordar-copo-de-a-gua-10-min-sem-telemo-@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261110T064500
+DURATION:PT5M
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:🌙 Acordar\, copo de água\, 10 min sem telemóvel
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-ter-0650casa-de-banho-e-roupa-de-treino@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261110T065000
 DURATION:PT10M
 RRULE:FREQ=WEEKLY;BYDAY=TU
-SUMMARY:🌙 Hora de ir para a cama
-DESCRIPTION:Higiene, telemóvel fora do quarto, alarme 7:30. Dormir às 23:
- 30.
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🌙 Hora de ir para a cama
-TRIGGER:PT0M
-END:VALARM
+SUMMARY:🎒 Casa de banho e roupa de treino
+DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:coach-pedro-5-ter@coach
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=America/New_York:20261110T224500
+UID:coach-ter-0700pre-treino@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261110T070000
 DURATION:PT10M
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:🍽️ Pré-treino
+DESCRIPTION:Banana e café\n≈ 110 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-ter-0710mala-te-rmica-do-frigori-fico-com-gelo-m@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261110T071000
+DURATION:PT5M
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:🎒 Mala térmica do frigorífico com gelo\, mochila e garrafa
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-ter-0715carro-chamadas-para-portugal-12h15-13h-e@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261110T071500
+DURATION:PT50M
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:🇵🇹 Carro: chamadas para Portugal (12h15–13h em Lisboa) ou 
+ áudio do exame de real estate da Florida
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-ter-0815treino-pull-no-gymage@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261110T081500
+DURATION:PT70M
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:🏋️ Treino Pull no Gymage
+DESCRIPTION:Pull-ups: 4 × 5–10\nRemada com barra ou halter: 3 × 8–10\
+ nPuxada no cabo\, pega neutra: 3 × 10–12\nFace pulls: 3 × 15\nCurl com
+  barra EZ: 3 × 8–12\nCurl martelo: 2 × 10–15\nRegista as séries na 
+ app.
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-ter-0925duche-e-vestir@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261110T092500
+DURATION:PT20M
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:🎒 Duche e vestir
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-ter-0950pequeno-almoc-o-no-cafe-@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261110T095000
+DURATION:PT10M
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:🍽️ Pequeno-almoço no café
+DESCRIPTION:Overnight oats (200 g skyr\, 1 scoop proteína\, 50 g aveia\, f
+ rutos vermelhos)\, 2 ovos cozidos\, 5 g creatina\n50 g proteína · ≈ 62
+ 0 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-ter-1000portugal-chamadas-clientes-equipa-15h-16@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261110T100000
+DURATION:PT90M
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:🇵🇹 Portugal: chamadas\, clientes\, equipa (15h–16h30 em Lis
+ boa)
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-ter-1130estudo-do-exame-ou-conteu-do-para-o-inst@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261110T113000
+DURATION:PT75M
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:🇵🇹 Estudo do exame ou conteúdo para o Instagram
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-ter-1245almoc-o-aquecido-no-staff@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261110T124500
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:🍽️ Almoço\, aquecido no staff
+DESCRIPTION:Chili de carne magra com 100 g arroz e legumes\n40 g proteína 
+ · ≈ 680 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-ter-1315pausa-caminhar-ou-descansar@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261110T131500
+DURATION:PT35M
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:🌙 Pausa: caminhar ou descansar
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-ter-1400turno-no-gymage-beber-1-l-de-a-gua@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261110T140000
+DURATION:PT480M
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:💼 Turno no Gymage — beber 1 L de água
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-ter-1630refeic-a-o-no-turno@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261110T163000
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:🍽️ ~Refeição no turno
+DESCRIPTION:Wrap integral com 120 g frango\, queijo fresco e alface\n35 g p
+ roteína · ≈ 420 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-ter-1930refeic-a-o-no-turno@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261110T193000
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:🍽️ ~Refeição no turno
+DESCRIPTION:200 g skyr\, 1 banana\, 25 g amêndoas\n25 g proteína · ≈ 3
+ 85 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-ter-2200carro-para-casa-nada-exigente@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261110T220000
+DURATION:PT35M
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:🎒 Carro para casa\, nada exigente
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-ter-2235ceia@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261110T223500
+DURATION:PT10M
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:🍽️ Ceia
+DESCRIPTION:200 g cottage com frutos vermelhos\n25 g proteína · ≈ 240 k
+ cal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-ter-2245preparar-quarta@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261110T224500
+DURATION:PT15M
 RRULE:FREQ=WEEKLY;BYDAY=TU
 SUMMARY:🎒 Preparar quarta
-DESCRIPTION:Preparar para quarta: abre a app e marca a checklist.
+DESCRIPTION:Preparar para quarta:\n• Passar a caixa congelada no sábado 
+ (almoço de quarta) para o frigorífico\n• Roupa de corrida e ténis à 
+ porta\n• Confirmar o que falta para o meal prep e as compras
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🎒 Preparar quarta
+DESCRIPTION:Preparar quarta
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:coach-pedro-6-qua@coach
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=America/New_York:20261111T230000
-DURATION:PT10M
+UID:coach-ter-2300higiene-telemo-vel-fora-do-quarto-alarme@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261110T230000
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:🌙 Higiene\, telemóvel fora do quarto\, alarme 7:30
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hora de ir para a cama
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-ter-2330dormir@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261110T233000
+DURATION:PT480M
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:🌙 Dormir
+DESCRIPTION:23:30 → 07:30
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qua-0730acordar-8-h-de-sono-a-gua-10-min-sem-tel@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261111T073000
+DURATION:PT5M
 RRULE:FREQ=WEEKLY;BYDAY=WE
-SUMMARY:🌙 Hora de ir para a cama
-DESCRIPTION:Higiene, telemóvel fora do quarto, alarme 6:45. Dormir às 23:
- 30.
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🌙 Hora de ir para a cama
-TRIGGER:PT0M
-END:VALARM
+SUMMARY:🌙 Acordar (8 h de sono)\, água\, 10 min sem telemóvel
+DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:coach-pedro-7-qua@coach
-DTSTAMP:20261107T000000Z
+UID:coach-qua-0735pre-corrida@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261111T073500
+DURATION:PT25M
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:🍽️ Pré-corrida
+DESCRIPTION:Banana e café\n≈ 110 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qua-0800corrida-leve-perto-de-casa-e-5-min-de-al@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261111T080000
+DURATION:PT40M
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:🏋️ Corrida leve perto de casa e 5 min de alongamentos
+DESCRIPTION:30–40 min em zona 2 + 5 min de alongamentos. De 15 em 15 dias
+ : 6 sprints de 20 s no fim.\nRegista as séries na app.
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qua-0845duche@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261111T084500
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:🎒 Duche
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qua-0915cozinhar-e-comer-o-pequeno-almoc-o-15-mi@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261111T091500
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:🍽️ Cozinhar e comer o pequeno-almoço (15 min)
+DESCRIPTION:3 ovos\, 100 g claras\, 2 tostas integrais\, ½ abacate\, 1 fru
+ ta\, 5 g creatina\n35 g proteína · ≈ 600 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qua-1000portugal-num-cafe-ou-em-casa-da-namorada@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261111T100000
+DURATION:PT180M
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:🇵🇹 Portugal num café ou em casa da namorada (15h–18h Lisbo
+ a)
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qua-1300almoc-o-caixa-congelada-no-sa-bado@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261111T130000
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:🍽️ Almoço: caixa congelada no sábado
+DESCRIPTION:Chili com arroz (caixa congelada no sábado)\n40 g proteína ·
+  ≈ 680 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qua-1400compras-de-reposic-a-o-frango-salma-o-fr@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261111T140000
+DURATION:PT60M
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:🎒 Compras de reposição: frango\, salmão\, fruta
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qua-1500meal-prep-para-quarta-a-noite-quinta-e-s@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261111T150000
+DURATION:PT90M
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:🎒 Meal prep para quarta à noite\, quinta e sexta
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qua-1700lanche@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261111T170000
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:🍽️ Lanche
+DESCRIPTION:Skyr\, 40 g aveia\, mirtilos\, 1 scoop proteína\, 1 colher man
+ teiga de amendoim\n40 g proteína · ≈ 520 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qua-1730livre@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261111T173000
+DURATION:PT150M
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:🌙 Livre
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qua-2000jantar@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261111T200000
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:🍽️ Jantar
+DESCRIPTION:150 g salmão do prep\, 300 g batata\, legumes\n35 g proteína 
+ · ≈ 590 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qua-2100preparar-quinta@coach-pedro
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/New_York:20261111T210000
-DURATION:PT10M
+DURATION:PT30M
 RRULE:FREQ=WEEKLY;BYDAY=WE
 SUMMARY:🎒 Preparar quinta
-DESCRIPTION:Preparar para quinta: abre a app e marca a checklist.
+DESCRIPTION:Preparar para quinta:\n• Overnight oats\n• 2 ovos cozidos\n
+ • Caixa do almoço\n• Lanche num pote (iogurte grego\, 40 g aveia\, 1 
+ colher manteiga de amendoim)\n• Caixa do jantar (salmão\, batata\, legu
+ mes)\n• 1 fruta e 25 g amêndoas\n• Mala térmica no frigorífico\n•
+  Mochila e roupa de treino
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🎒 Preparar quinta
+DESCRIPTION:Preparar quinta
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:coach-pedro-8-qua@coach
-DTSTAMP:20261107T000000Z
+UID:coach-qua-2230ceia@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261111T223000
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:🍽️ Ceia
+DESCRIPTION:200 g cottage com frutos vermelhos\n25 g proteína · ≈ 240 k
+ cal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qua-2300higiene-telemo-vel-fora-do-quarto-alarme@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261111T230000
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:🌙 Higiene\, telemóvel fora do quarto\, alarme 6:45
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hora de ir para a cama
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qua-2330dormir@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261111T233000
+DURATION:PT435M
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:🌙 Dormir
+DESCRIPTION:23:30 → 06:45
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qua-pesar@coach-pedro
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/New_York:20261111T073500
-DURATION:PT10M
+DURATION:PT5M
 RRULE:FREQ=WEEKLY;BYDAY=WE
 SUMMARY:⚖️ Pesar em jejum
-DESCRIPTION:Depois da casa de banho, antes de comer. Regista na app.
+DESCRIPTION:Depois da casa de banho\, antes de comer. Regista na app.
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚖️ Pesar em jejum
+DESCRIPTION:Pesar em jejum
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:coach-pedro-9-qui@coach
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=America/New_York:20261112T230500
+UID:coach-qui-0645acordar-copo-de-a-gua-10-min-sem-telemo-@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261112T064500
+DURATION:PT5M
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:🌙 Acordar\, copo de água\, 10 min sem telemóvel
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qui-0650casa-de-banho-e-roupa-de-treino@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261112T065000
 DURATION:PT10M
 RRULE:FREQ=WEEKLY;BYDAY=TH
-SUMMARY:🌙 Hora de ir para a cama
-DESCRIPTION:Higiene, alarme 6:45. Dormir às 23:30.
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🌙 Hora de ir para a cama
-TRIGGER:PT0M
-END:VALARM
+SUMMARY:🎒 Casa de banho e roupa de treino
+DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:coach-pedro-10-qui@coach
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=America/New_York:20261112T224500
+UID:coach-qui-0700pre-treino@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261112T070000
 DURATION:PT10M
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:🍽️ Pré-treino
+DESCRIPTION:Banana e café\n≈ 110 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qui-0710mala-te-rmica-do-frigori-fico-com-gelo-m@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261112T071000
+DURATION:PT5M
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:🎒 Mala térmica do frigorífico com gelo\, mochila e garrafa
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qui-0715carro-chamadas-para-portugal-12h15-13h-e@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261112T071500
+DURATION:PT50M
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:🇵🇹 Carro: chamadas para Portugal (12h15–13h em Lisboa) ou 
+ áudio do exame de real estate da Florida
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qui-0815treino-pernas-no-gymage@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261112T081500
+DURATION:PT70M
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:🏋️ Treino Pernas no Gymage
+DESCRIPTION:Agachamento com barra: 4 × 5–8\nPeso morto romeno: 3 × 8–
+ 10\nLeg press: 3 × 10–12\nCurl de pernas: 3 × 10–15\nGémeos em pé:
+  4 × 10–15\nHanging leg raises: 3 × 10–15\nRegista as séries na app
+ .
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qui-0925duche-e-vestir@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261112T092500
+DURATION:PT20M
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:🎒 Duche e vestir
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qui-0950pequeno-almoc-o-no-cafe-@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261112T095000
+DURATION:PT10M
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:🍽️ Pequeno-almoço no café
+DESCRIPTION:Overnight oats (200 g skyr\, 1 scoop proteína\, 50 g aveia\, f
+ rutos vermelhos)\, 2 ovos cozidos\, 5 g creatina\n50 g proteína · ≈ 62
+ 0 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qui-1000portugal-e-estudo-15h-17h45-lisboa-@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261112T100000
+DURATION:PT165M
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:🇵🇹 Portugal e estudo (15h–17h45 Lisboa)
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qui-1245almoc-o@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261112T124500
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:🍽️ Almoço
+DESCRIPTION:180 g frango\, 100 g arroz\, legumes\, 1 colher azeite\n45 g pr
+ oteína · ≈ 700 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qui-1315descanso-sesta-de-20-min-ou-tempo-livre@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261112T131500
+DURATION:PT105M
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:🌙 Descanso: sesta de 20 min ou tempo livre
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qui-1500bloco-extra-opcional-de-portugal-ou-estu@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261112T150000
+DURATION:PT90M
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:🇵🇹 Bloco extra opcional de Portugal ou estudo
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qui-1530lanche@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261112T153000
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:🍽️ Lanche
+DESCRIPTION:Iogurte grego\, 40 g aveia\, 1 colher manteiga de amendoim\n20 
+ g proteína · ≈ 340 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qui-1700jantar@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261112T170000
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:🍽️ Jantar
+DESCRIPTION:150 g salmão\, 300 g batata\, legumes\n35 g proteína · ≈ 5
+ 90 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qui-1730ir-para-o-turno@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261112T173000
+DURATION:PT20M
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:🎒 Ir para o turno
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qui-1800turno-beber-0-5-l-de-a-gua@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261112T180000
+DURATION:PT240M
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:💼 Turno — beber 0\,5 L de água
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qui-2000snack-no-turno@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261112T200000
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:🍽️ ~Snack no turno
+DESCRIPTION:1 fruta e 25 g amêndoas\n5 g proteína · ≈ 230 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qui-2200carro-para-casa@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261112T220000
+DURATION:PT35M
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:🎒 Carro para casa
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qui-2235ceia@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261112T223500
+DURATION:PT10M
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:🍽️ Ceia
+DESCRIPTION:200 g cottage com frutos vermelhos\n25 g proteína · ≈ 240 k
+ cal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qui-2245preparar-sexta@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261112T224500
+DURATION:PT20M
 RRULE:FREQ=WEEKLY;BYDAY=TH
 SUMMARY:🎒 Preparar sexta
-DESCRIPTION:Preparar para sexta: abre a app e marca a checklist.
+DESCRIPTION:Preparar para sexta:\n• Overnight oats no frigorífico\n• 2
+  ovos cozidos\n• Caixa do almoço\n• Wrap embrulhado em alumínio\n•
+  Kit de skyr (pote 200 g\, banana\, 25 g amêndoas)\n• Tudo na mala tér
+ mica no frigorífico e gelo no congelador\n• Mochila: roupa de trabalho\
+ , toalha\, chinelos\, desodorizante\, portátil\, carregador\, auscultador
+ es\n• Roupa de treino na cadeira e garrafa lavada
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🎒 Preparar sexta
+DESCRIPTION:Preparar sexta
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:coach-pedro-11-sex@coach
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=America/New_York:20261113T230000
-DURATION:PT10M
+UID:coach-qui-2305higiene-alarme-6-45@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261112T230500
+DURATION:PT25M
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:🌙 Higiene\, alarme 6:45
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hora de ir para a cama
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-qui-2330dormir@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261112T233000
+DURATION:PT435M
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:🌙 Dormir
+DESCRIPTION:23:30 → 06:45
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sex-0645acordar-copo-de-a-gua-10-min-sem-telemo-@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261113T064500
+DURATION:PT5M
 RRULE:FREQ=WEEKLY;BYDAY=FR
-SUMMARY:🌙 Hora de ir para a cama
-DESCRIPTION:Higiene, telemóvel fora do quarto, alarme 8:00. Dormir às 23:
- 30.
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🌙 Hora de ir para a cama
-TRIGGER:PT0M
-END:VALARM
+SUMMARY:🌙 Acordar\, copo de água\, 10 min sem telemóvel
+DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:coach-pedro-12-sex@coach
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=America/New_York:20261113T224500
-DURATION:PT10M
-RRULE:FREQ=WEEKLY;BYDAY=FR
-SUMMARY:🎒 Preparar sábado
-DESCRIPTION:Preparar para sábado: abre a app e marca a checklist.
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎒 Preparar sábado
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:coach-pedro-13-sex@coach
-DTSTAMP:20261107T000000Z
+UID:coach-sex-0650casa-de-banho-e-roupa-de-treino@coach-pedro
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/New_York:20261113T065000
 DURATION:PT10M
 RRULE:FREQ=WEEKLY;BYDAY=FR
-SUMMARY:⚖️ Pesar em jejum
-DESCRIPTION:Depois da casa de banho, antes de comer. Regista na app.
+SUMMARY:🎒 Casa de banho e roupa de treino
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sex-0700pre-treino@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261113T070000
+DURATION:PT10M
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:🍽️ Pré-treino
+DESCRIPTION:Banana e café\n≈ 110 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sex-0710mala-te-rmica-do-frigori-fico-com-gelo-m@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261113T071000
+DURATION:PT5M
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:🎒 Mala térmica do frigorífico com gelo\, mochila e garrafa
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sex-0715carro-chamadas-para-portugal-12h15-13h-e@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261113T071500
+DURATION:PT50M
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:🇵🇹 Carro: chamadas para Portugal (12h15–13h em Lisboa) ou 
+ áudio do exame de real estate da Florida
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sex-0815treino-upper-no-gymage@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261113T081500
+DURATION:PT70M
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:🏋️ Treino Upper no Gymage
+DESCRIPTION:Supino plano com barra: 4 × 5–8\nChin-ups: 3 × 6–10\nRema
+ da no cabo sentado: 3 × 10–12\nFlexões com pés elevados: 3 × até 2 
+ antes da falha\nElevações laterais no cabo: 3 × 12–15\nCurl inclinado
+ : 3 × 10–12\nTríceps por cima da cabeça: 3 × 10–12\nRegista as sé
+ ries na app.
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sex-0925duche-e-vestir@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261113T092500
+DURATION:PT20M
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:🎒 Duche e vestir
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sex-0950pequeno-almoc-o-no-cafe-@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261113T095000
+DURATION:PT10M
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:🍽️ Pequeno-almoço no café
+DESCRIPTION:Overnight oats (200 g skyr\, 1 scoop proteína\, 50 g aveia\, f
+ rutos vermelhos)\, 2 ovos cozidos\, 5 g creatina\n50 g proteína · ≈ 62
+ 0 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sex-1000portugal-chamadas-clientes-equipa-15h-16@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261113T100000
+DURATION:PT90M
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:🇵🇹 Portugal: chamadas\, clientes\, equipa (15h–16h30 em Lis
+ boa)
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sex-1130estudo-do-exame-ou-conteu-do-para-o-inst@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261113T113000
+DURATION:PT75M
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:🇵🇹 Estudo do exame ou conteúdo para o Instagram
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sex-1245almoc-o-aquecido-no-staff@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261113T124500
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:🍽️ Almoço\, aquecido no staff
+DESCRIPTION:180 g frango\, 350 g batata\, legumes\, 1 colher azeite\n45 g p
+ roteína · ≈ 610 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sex-1315pausa-caminhar-ou-descansar@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261113T131500
+DURATION:PT35M
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:🌙 Pausa: caminhar ou descansar
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sex-1400turno-no-gymage-beber-1-l-de-a-gua@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261113T140000
+DURATION:PT480M
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:💼 Turno no Gymage — beber 1 L de água
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sex-1630refeic-a-o-no-turno@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261113T163000
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:🍽️ ~Refeição no turno
+DESCRIPTION:Wrap integral com 120 g frango\, queijo fresco e alface\n35 g p
+ roteína · ≈ 420 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sex-1930refeic-a-o-no-turno@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261113T193000
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:🍽️ ~Refeição no turno
+DESCRIPTION:200 g skyr\, 1 banana\, 25 g amêndoas\n25 g proteína · ≈ 3
+ 85 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sex-2200carro-para-casa-nada-exigente@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261113T220000
+DURATION:PT35M
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:🎒 Carro para casa\, nada exigente
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sex-2235ceia@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261113T223500
+DURATION:PT10M
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:🍽️ Ceia
+DESCRIPTION:200 g cottage com frutos vermelhos\n25 g proteína · ≈ 240 k
+ cal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sex-2245preparar-sa-bado@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261113T224500
+DURATION:PT15M
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:🎒 Preparar sábado
+DESCRIPTION:Preparar para sábado:\n• Roupa de treino\n• Esvaziar e lav
+ ar as caixas da semana\n• Ver o que falta e ajustar a lista de compras
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⚖️ Pesar em jejum
+DESCRIPTION:Preparar sábado
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:coach-pedro-14-sex@coach
-DTSTAMP:20261107T000000Z
+UID:coach-sex-2300higiene-telemo-vel-fora-do-quarto-alarme@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261113T230000
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:🌙 Higiene\, telemóvel fora do quarto\, alarme 8:00
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hora de ir para a cama
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sex-2330dormir@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261113T233000
+DURATION:PT510M
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:🌙 Dormir
+DESCRIPTION:23:30 → 08:00
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sex-pesar@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261113T065000
+DURATION:PT5M
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:⚖️ Pesar em jejum
+DESCRIPTION:Depois da casa de banho\, antes de comer. Regista na app.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pesar em jejum
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sex-cintura@coach-pedro
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/New_York:20261113T065300
-DURATION:PT10M
+DURATION:PT5M
 RRULE:FREQ=WEEKLY;BYDAY=FR
 SUMMARY:📏 Medir a cintura
 DESCRIPTION:Ao nível do umbigo. Regista na app.
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:📏 Medir a cintura
+DESCRIPTION:Medir a cintura
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:coach-pedro-15-sab@coach
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=America/New_York:20261114T214500
-DURATION:PT10M
+UID:coach-sab-0800acordar-8h30-de-sono-a-gua@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261114T080000
+DURATION:PT5M
 RRULE:FREQ=WEEKLY;BYDAY=SA
-SUMMARY:🌙 Hora de ir para a cama
-DESCRIPTION:Higiene, telemóvel fora, alarme 6:15. Dormir às 22:00.
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🌙 Hora de ir para a cama
-TRIGGER:PT0M
-END:VALARM
+SUMMARY:🌙 Acordar (8h30 de sono)\, água
+DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:coach-pedro-16-sab@coach
-DTSTAMP:20261107T000000Z
+UID:coach-sab-0805pre-treino@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261114T080500
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:🍽️ Pré-treino
+DESCRIPTION:Banana e café\n≈ 110 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sab-0900treino-lower-core-no-condomi-nio-ou-no-g@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261114T090000
+DURATION:PT70M
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:🏋️ Treino Lower + core no condomínio ou no Gymage (se Gymage\
+ , sair às 8:10)
+DESCRIPTION:Hip thrust: 4 × 8–10\nAgachamento búlgaro: 3 × 8–10\nExt
+ ensão de pernas: 3 × 12–15\nPeso morto convencional (leve a moderado):
+  3 × 5\nAb wheel: 3 × 8–12\nPrancha lateral: 3 × 30–45 s\nRegista a
+ s séries na app.
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sab-1010duche@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261114T101000
+DURATION:PT20M
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:🎒 Duche
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sab-1030cozinhar-e-comer-o-pequeno-almoc-o@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261114T103000
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:🍽️ Cozinhar e comer o pequeno-almoço
+DESCRIPTION:3 ovos\, 100 g claras\, 2 tostas integrais\, ½ abacate\, 1 fru
+ ta\, 5 g creatina\n35 g proteína · ≈ 600 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sab-1100livre-ou-portugal-se-precisar@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261114T110000
+DURATION:PT120M
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:🇵🇹 Livre\, ou Portugal se precisar
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sab-1300almoc-o@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261114T130000
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:🍽️ Almoço
+DESCRIPTION:180 g bife magro\, 100 g arroz\, salada\n40 g proteína · ≈ 
+ 620 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sab-1345compras-da-semana@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261114T134500
+DURATION:PT60M
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:🎒 Compras da semana
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sab-1500meal-prep-para-domingo-segunda-e-terc-a@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261114T150000
+DURATION:PT120M
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:🎒 Meal prep para domingo\, segunda e terça
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sab-1715lanche@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261114T171500
+DURATION:PT15M
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:🍽️ Lanche
+DESCRIPTION:Skyr\, 40 g aveia\, mirtilos\, 1 scoop proteína\, 1 colher man
+ teiga de amendoim\n40 g proteína · ≈ 520 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sab-1730livre@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261114T173000
+DURATION:PT150M
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:🌙 Livre
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sab-2000jantar@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261114T200000
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:🍽️ Jantar
+DESCRIPTION:180 g frango do prep\, 300 g batata\, legumes\n40 g proteína 
+ · ≈ 480 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sab-2045preparar-domingo@coach-pedro
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/New_York:20261114T204500
-DURATION:PT10M
+DURATION:PT30M
 RRULE:FREQ=WEEKLY;BYDAY=SA
 SUMMARY:🎒 Preparar domingo
-DESCRIPTION:Preparar para domingo: abre a app e marca a checklist.
+DESCRIPTION:Preparar para domingo:\n• Bowl de chili com arroz e legumes\n
+ • Wrap\n• Kit de skyr (pote 200 g\, 1 fruta\, 25 g frutos secos)\n• 
+ Mala térmica no frigorífico\n• Mochila: roupa de trabalho\, desodoriza
+ nte\, carregador\, auscultadores\, garrafa
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🎒 Preparar domingo
+DESCRIPTION:Preparar domingo
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:coach-pedro-17-dom@coach
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=America/New_York:20261115T224500
+UID:coach-sab-2130ceia@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261114T213000
+DURATION:PT15M
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:🍽️ Ceia
+DESCRIPTION:200 g cottage com frutos vermelhos\n25 g proteína · ≈ 240 k
+ cal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sab-2145higiene-telemo-vel-fora-alarme-6-15@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261114T214500
+DURATION:PT15M
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:🌙 Higiene\, telemóvel fora\, alarme 6:15
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hora de ir para a cama
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-sab-2200dormir@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261114T220000
+DURATION:PT495M
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:🌙 Dormir
+DESCRIPTION:22:00 → 06:15
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-dom-0615acordar-8h15-de-sono-a-gua@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261115T061500
 DURATION:PT10M
 RRULE:FREQ=WEEKLY;BYDAY=SU
-SUMMARY:🌙 Hora de ir para a cama
-DESCRIPTION:Higiene, alarme 6:45. Dormir às 23:00.
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🌙 Hora de ir para a cama
-TRIGGER:PT0M
-END:VALARM
+SUMMARY:🌙 Acordar (8h15 de sono)\, água
+DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:coach-pedro-18-dom@coach
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=America/New_York:20261115T211500
+UID:coach-dom-0625cozinhar-e-comer-o-pequeno-almoc-o@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261115T062500
+DURATION:PT25M
+RRULE:FREQ=WEEKLY;BYDAY=SU
+SUMMARY:🍽️ Cozinhar e comer o pequeno-almoço
+DESCRIPTION:4 ovos\, 2 tostas integrais\, ½ abacate\, 1 fruta\, 5 g creati
+ na\n30 g proteína · ≈ 620 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-dom-0650mala-te-rmica-com-gelo-mochila-e-garrafa@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261115T065000
 DURATION:PT10M
+RRULE:FREQ=WEEKLY;BYDAY=SU
+SUMMARY:🎒 Mala térmica com gelo\, mochila e garrafa
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-dom-0700carro-a-udio-do-exame-ou-podcast@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261115T070000
+DURATION:PT40M
+RRULE:FREQ=WEEKLY;BYDAY=SU
+SUMMARY:🇵🇹 Carro: áudio do exame ou podcast
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-dom-0800turno-beber-1-5-l-de-a-gua@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261115T080000
+DURATION:PT720M
+RRULE:FREQ=WEEKLY;BYDAY=SU
+SUMMARY:💼 Turno — beber 1\,5 L de água
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-dom-1100refeic-a-o@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261115T110000
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=SU
+SUMMARY:🍽️ ~Refeição
+DESCRIPTION:Bowl de chili com arroz e legumes\n40 g proteína · ≈ 680 kc
+ al
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-dom-1430refeic-a-o@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261115T143000
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=SU
+SUMMARY:🍽️ ~Refeição
+DESCRIPTION:Wrap integral com 120 g frango\, queijo fresco e alface\n35 g p
+ roteína · ≈ 420 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-dom-1730refeic-a-o@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261115T173000
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=SU
+SUMMARY:🍽️ ~Refeição
+DESCRIPTION:200 g skyr\, 1 fruta\, 25 g frutos secos\n25 g proteína · ≈
+  360 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-dom-2000carro-para-casa@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261115T200000
+DURATION:PT40M
+RRULE:FREQ=WEEKLY;BYDAY=SU
+SUMMARY:🎒 Carro para casa
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-dom-2045jantar-aquecer-a-caixa@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261115T204500
+DURATION:PT30M
+RRULE:FREQ=WEEKLY;BYDAY=SU
+SUMMARY:🍽️ Jantar\, aquecer a caixa
+DESCRIPTION:180 g frango\, 300 g batata\, legumes\n40 g proteína · ≈ 48
+ 0 kcal
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-dom-2115preparar-segunda@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261115T211500
+DURATION:PT20M
 RRULE:FREQ=WEEKLY;BYDAY=SU
 SUMMARY:🎒 Preparar segunda
-DESCRIPTION:Preparar para segunda: abre a app e marca a checklist.
+DESCRIPTION:Preparar para segunda:\n• Overnight oats no frigorífico\n•
+  2 ovos cozidos\n• Caixa do almoço\n• Wrap embrulhado em alumínio\n
+ • Kit de skyr (pote 200 g\, banana\, 25 g amêndoas)\n• Tudo na mala t
+ érmica no frigorífico e gelo no congelador\n• Mochila: roupa de trabal
+ ho\, toalha\, chinelos\, desodorizante\, portátil\, carregador\, ausculta
+ dores\n• Roupa de treino na cadeira e garrafa lavada
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🎒 Preparar segunda
+DESCRIPTION:Preparar segunda
 TRIGGER:PT0M
 END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-dom-2135livre-sem-ecra-s-na-u-ltima-meia-hora@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261115T213500
+DURATION:PT70M
+RRULE:FREQ=WEEKLY;BYDAY=SU
+SUMMARY:🌙 Livre\, sem ecrãs na última meia hora
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-dom-2245higiene-alarme-6-45@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261115T224500
+DURATION:PT15M
+RRULE:FREQ=WEEKLY;BYDAY=SU
+SUMMARY:🌙 Higiene\, alarme 6:45
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hora de ir para a cama
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:coach-dom-2300dormir@coach-pedro
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/New_York:20261115T230000
+DURATION:PT465M
+RRULE:FREQ=WEEKLY;BYDAY=SU
+SUMMARY:🌙 Dormir
+DESCRIPTION:23:00 → 06:45
 END:VEVENT
 END:VCALENDAR

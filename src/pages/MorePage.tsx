@@ -58,7 +58,7 @@ export default function MorePage() {
       <div className="card">
         <h2 className="flex items-center gap-2 text-lg font-bold"><IconBell width={20} height={20} /> Lembretes</h2>
         <p className="mt-1 text-sm muted">
-          No iPhone, uma app web não consegue tocar alarmes com a app fechada. A solução é juntar estes lembretes ao Calendário do iPhone, uma vez só: hora de ir para a cama, preparar o dia seguinte, pesar (seg, qua, sex) e medir a cintura (sex).
+          No iPhone, uma app web não consegue tocar alarmes com a app fechada. A solução é subscrever o calendário «Coach do Pedro», uma vez só: tem a rotina completa da semana (refeições, treinos, turnos, Portugal, sono…) e toca alerta só na hora de ir para a cama, ao preparar o dia seguinte, ao pesar (seg, qua, sex) e na cintura (sex).
         </p>
         <a className="btn-primary mt-3 w-full" href={icsUrl.replace(/^https?:/, 'webcal:')}>Subscrever no Calendário</a>
         <ol className="mt-3 list-decimal space-y-1 pl-5 text-sm muted">
