@@ -1,11 +1,11 @@
 import { useEffect, useMemo, useRef } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
-import { categories, measurements, profile, targets, workouts, type DayId, type TimelineItem } from '../data/plan'
+import { categories, measurements, targets, workouts, type DayId, type TimelineItem } from '../data/plan'
 import Bar from '../components/Bar'
 import Check from '../components/Check'
 import DayStrip from '../components/DayStrip'
 import { IconDrop, IconMoon } from '../components/Icons'
-import { DAY_IDS, dateForDay, dayIdOf, fmtDate, fmtNum, fmtTime, getDay, itemKey, nowMin, planWeek, sleepDuration, todayISO, toMin } from '../lib/date'
+import { DAY_IDS, addDays, dateForDay, dayIdOf, fmtDate, fmtNum, fmtTime, getDay, itemKey, nowMin, planWeek, sleepDuration, todayISO, toMin } from '../lib/date'
 import { useNow } from '../lib/hooks'
 import { useSwipe } from '../lib/swipe'
 import { weekState } from '../lib/training'
@@ -69,7 +69,7 @@ export default function DayPage() {
     if (id === measurements.waistDay && s.waists[date] == null) notices.push({ text: 'Mede a cintura ao nível do umbigo', to: '/progresso', tone: 'blue' })
     if (id === 'sex' && week >= 1 && (week - 1) % measurements.photosEveryWeeks === 0) notices.push({ text: 'Semana de fotos: frente, lado e costas', tone: 'purple' })
     if (ws.readinessAlert) notices.push({ text: 'Readiness baixa 3 dias seguidos: considera uma semana de deload', to: '/treino', tone: 'amber' })
-    if (week < 1) notices.push({ text: `O plano começa a ${fmtDate(profile.startDate)}`, tone: 'purple' })
+    if (date < s.startDate) notices.push({ text: addDays(date, 1) === s.startDate ? `O plano começa amanhã. Hoje à noite: «${day.prepTitle}» e deitar a horas.` : `O plano começa a ${fmtDate(s.startDate)}`, tone: 'purple' })
   }
   const prepDone = day.prepTomorrow.filter((_, i) => checks.includes(`prep:${i}`)).length
 

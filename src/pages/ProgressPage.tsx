@@ -187,7 +187,7 @@ function CoachCard() {
       {!r ? (
         <p className="mt-2 text-sm muted">
           A primeira análise é ao fim das semanas 1 e 2 ({fmtDate(addDays(weekStart(s.startDate), 14))}). Até lá: pesa-te à segunda, quarta e sexta, mede a cintura à sexta e regista os treinos.
-          {planWeek(today, s.startDate) < 1 && ` O plano começa a ${fmtDate(s.startDate)}.`}
+          {today < s.startDate && ` O plano começa a ${fmtDate(s.startDate)}.`}
         </p>
       ) : (
         <>

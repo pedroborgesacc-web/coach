@@ -54,7 +54,7 @@ export interface PrepStep { t: string; text: string; min?: number }
 // ---------------------------------------------------------------------
 export const profile = {
   name: 'Pedro',
-  startDate: '2026-11-09', // segunda-feira
+  startDate: '2026-11-10', // terça-feira (a semana 1 conta a partir da segunda, 9/11)
   age: 27,
   heightCm: 179,
   startWeightKg: 72.5,

@@ -9,6 +9,7 @@ export default function MorePage() {
   const fileRef = useRef<HTMLInputElement>(null)
   const [msg, setMsg] = useState('')
   const week = planWeek(todayISO(), s.startDate)
+  const icsUrl = new URL('lembretes.ics', location.href.split('#')[0]).href
 
   const doExport = async () => {
     const json = JSON.stringify({ app: 'coach-pedro', exportedAt: new Date().toISOString(), data: exportData() }, null, 2)
@@ -59,8 +60,17 @@ export default function MorePage() {
         <p className="mt-1 text-sm muted">
           No iPhone, uma app web não consegue tocar alarmes com a app fechada. A solução é juntar estes lembretes ao Calendário do iPhone, uma vez só: hora de ir para a cama, preparar o dia seguinte, pesar (seg, qua, sex) e medir a cintura (sex).
         </p>
-        <a className="btn-primary mt-3 w-full" href="lembretes.ics" target="_blank" rel="noopener">Adicionar ao Calendário</a>
-        <p className="mt-2 text-xs muted">Abre o ficheiro e toca em «Adicionar tudo». Os lembretes ficam num calendário novo e repetem-se todas as semanas, no fuso horário de Miami. Para os tirar, apaga esse calendário.</p>
+        <a className="btn-primary mt-3 w-full" href={icsUrl.replace(/^https?:/, 'webcal:')}>Subscrever no Calendário</a>
+        <ol className="mt-3 list-decimal space-y-1 pl-5 text-sm muted">
+          <li>Toca no botão: o iPhone abre o Calendário e pergunta se queres subscrever. Toca em <b>Subscrever</b>.</li>
+          <li>No ecrã seguinte, <b>desliga «Remover alertas»</b> (senão os lembretes não tocam) e toca em <b>Adicionar</b>.</li>
+        </ol>
+        <p className="mt-2 text-xs muted">Fica um calendário «Coach do Pedro», na hora de Miami, que se atualiza sozinho se o plano mudar. Para o tirar: Calendário → Calendários → «Coach do Pedro» → Apagar.</p>
+        <details className="mt-2 text-xs muted">
+          <summary className="cursor-pointer font-semibold">Não abriu o Calendário?</summary>
+          <p className="mt-1">Copia o link, cola-o no <b>Safari</b> (não na app) e toca em «Adicionar tudo».</p>
+          <button className="btn-ghost mt-2 w-full" onClick={() => navigator.clipboard?.writeText(icsUrl).then(() => setMsg('Link copiado ✓'), () => setMsg(icsUrl))}>Copiar link</button>
+        </details>
       </div>
 
       <div className="card">
@@ -87,7 +97,7 @@ export default function MorePage() {
           </div>
         </div>
         <label className="block">
-          <div className="mb-1 text-sm font-medium">Data de início do plano (segunda-feira)</div>
+          <div className="mb-1 text-sm font-medium">Data de início do plano</div>
           <input type="date" className="input" value={s.startDate} onChange={(e) => e.target.value && s.setStartDate(e.target.value)} />
         </label>
         {s.deloadWeeks.length > 0 && <p className="text-sm muted">Semanas de deload marcadas: {[...s.deloadWeeks].sort((a, b) => a - b).join(', ')}</p>}

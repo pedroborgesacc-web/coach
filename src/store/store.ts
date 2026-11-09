@@ -113,7 +113,17 @@ export const useStore = create<Data & Actions>()(
       },
       importData: (d) => setS({ ...initialData, ...d }),
     }),
-    { name: 'coach-pedro', version: 1, storage: createJSONStorage(() => idbStorage) },
+    {
+      name: 'coach-pedro',
+      version: 2,
+      storage: createJSONStorage(() => idbStorage),
+      migrate: (persisted, from) => {
+        const st = persisted as Data
+        // v2: início passou de segunda 9/11 para terça 10/11
+        if (from < 2 && st.startDate === '2026-11-09') st.startDate = profile.startDate
+        return st as Data & Actions
+      },
+    },
   ),
 )
 
