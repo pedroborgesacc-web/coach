@@ -487,8 +487,8 @@ DTSTART;TZID=America/New_York:20261111T091500
 DURATION:PT30M
 RRULE:FREQ=WEEKLY;BYDAY=WE
 SUMMARY:🍽️ Cozinhar e comer o pequeno-almoço (15 min)
-DESCRIPTION:3 ovos\, 100 g claras\, 2 tostas integrais\, ½ abacate\, 1 fru
- ta\, 5 g creatina\n35 g proteína · ≈ 600 kcal
+DESCRIPTION:3 ovos\, 100 g claras\, 1 bagel de proteína\, ½ abacate\, 1 f
+ ruta\, 5 g creatina\n42 g proteína · ≈ 700 kcal
 END:VEVENT
 BEGIN:VEVENT
 UID:coach-qua-1000portugal-num-cafe-ou-em-casa-da-namorada@coach-pedro
@@ -1118,8 +1118,8 @@ DTSTART;TZID=America/New_York:20261114T103000
 DURATION:PT30M
 RRULE:FREQ=WEEKLY;BYDAY=SA
 SUMMARY:🍽️ Cozinhar e comer o pequeno-almoço
-DESCRIPTION:3 ovos\, 100 g claras\, 2 tostas integrais\, ½ abacate\, 1 fru
- ta\, 5 g creatina\n35 g proteína · ≈ 600 kcal
+DESCRIPTION:3 ovos\, 100 g claras\, 1 bagel de proteína\, ½ abacate\, 1 f
+ ruta\, 5 g creatina\n42 g proteína · ≈ 700 kcal
 END:VEVENT
 BEGIN:VEVENT
 UID:coach-sab-1100livre-ou-portugal-se-precisar@coach-pedro
@@ -1252,8 +1252,8 @@ DTSTART;TZID=America/New_York:20261115T062500
 DURATION:PT25M
 RRULE:FREQ=WEEKLY;BYDAY=SU
 SUMMARY:🍽️ Cozinhar e comer o pequeno-almoço
-DESCRIPTION:4 ovos\, 2 tostas integrais\, ½ abacate\, 1 fruta\, 5 g creati
- na\n30 g proteína · ≈ 620 kcal
+DESCRIPTION:4 ovos\, 1 bagel de proteína\, ½ abacate\, 1 fruta\, 5 g crea
+ tina\n37 g proteína · ≈ 720 kcal
 END:VEVENT
 BEGIN:VEVENT
 UID:coach-dom-0650mala-te-rmica-com-gelo-mochila-e-garrafa@coach-pedro

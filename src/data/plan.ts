@@ -90,7 +90,7 @@ const M = {
   wrap: { desc: 'Wrap integral com 120 g frango, queijo fresco e alface', p: 35, kcal: 420 },
   skyrBanana: { desc: '200 g skyr, 1 banana, 25 g amêndoas', p: 25, kcal: 385 },
   ceia: { desc: '200 g cottage com 1 tangerina', p: 25, kcal: 240 },
-  ovosCasa: { desc: '3 ovos, 100 g claras, 2 tostas integrais, ½ abacate, 1 fruta, 5 g creatina', p: 35, kcal: 600 },
+  ovosCasa: { desc: '3 ovos, 100 g claras, 1 bagel de proteína, ½ abacate, 1 fruta, 5 g creatina', p: 42, kcal: 700 },
   chili: { desc: 'Chili de carne magra com 100 g arroz e legumes', p: 40, kcal: 680 },
   lancheSkyr: { desc: 'Skyr, 40 g aveia, ½ banana, 1 scoop proteína, 1 colher manteiga de amendoim', p: 40, kcal: 520 },
   salmao: { desc: '150 g salmão, 300 g batata, legumes', p: 35, kcal: 590 },
@@ -276,7 +276,7 @@ export const days: Day[] = [
     sleep: { bed: '23:00', wake: '06:45' }, kcalTarget: 2400, water: '3 L (1,5 L no turno)',
     timeline: [
       { t: '06:15', title: 'Acordar (8h15 de sono), água', cat: 'sono' },
-      { t: '06:25', title: 'Cozinhar e comer o pequeno-almoço', cat: 'comida', meal: { desc: '4 ovos, 2 tostas integrais, ½ abacate, 1 fruta, 5 g creatina', p: 30, kcal: 620 } },
+      { t: '06:25', title: 'Cozinhar e comer o pequeno-almoço', cat: 'comida', meal: { desc: '4 ovos, 1 bagel de proteína, ½ abacate, 1 fruta, 5 g creatina', p: 37, kcal: 720 } },
       { t: '06:50', title: 'Mala térmica com gelo, mochila e garrafa', cat: 'prep' },
       { t: '07:00', end: '07:40', title: 'Carro: áudio do exame ou podcast', cat: 'portugal' },
       { t: '08:00', end: '20:00', title: 'Turno — beber 1,5 L de água', cat: 'turno' },
@@ -422,7 +422,7 @@ export const shopping: ShopItem[] = [
   { sec: 'Fruta e frescos', item: 'Limões 2', usd: 1 },
   { sec: 'Fruta e frescos', item: 'Batata 5 lb (~2,3 kg)', usd: 5 },
   { sec: 'Despensa', item: 'Tortilhas integrais 1 pacote', usd: 4 },
-  { sec: 'Despensa', item: 'Pão integral 1', usd: 4 },
+  { sec: 'Despensa', item: 'Bagels de proteína 1 pacote', usd: 4 },
   { sec: 'Despensa', item: 'Feijão 1 lata + tomate 1 lata', usd: 3 },
   { sec: 'Só se já acabou', item: 'Arroz 2 lb (~900 g, dá ~1,5 semanas)', usd: 3, extra: true },
   { sec: 'Só se já acabou', item: 'Aveia 18 oz (~500 g, dá ~1,5 semanas)', usd: 4, extra: true },
@@ -435,7 +435,7 @@ export const shopping: ShopItem[] = [
 
 export const swaps: string[] = [
   'Frango ↔ peru ↔ atum ↔ pescada',
-  'Arroz ↔ massa ↔ batata ↔ batata-doce',
+  'Arroz ↔ massa / esparguete ↔ batata ↔ batata-doce (mesmo peso em cru)',
   'Skyr ↔ iogurte grego magro ↔ cottage',
   'Frutos vermelhos ↔ banana ↔ tangerina',
   'Legumes frescos ↔ legumes congelados (mesmo valor nutricional)',
