@@ -487,8 +487,8 @@ DTSTART;TZID=America/New_York:20261111T091500
 DURATION:PT30M
 RRULE:FREQ=WEEKLY;BYDAY=WE
 SUMMARY:🍽️ Cozinhar e comer o pequeno-almoço (15 min)
-DESCRIPTION:3 ovos\, 100 g claras\, 1 bagel de proteína\, ½ abacate\, 1 f
- ruta\, 5 g creatina\n42 g proteína · ≈ 700 kcal
+DESCRIPTION:3 ovos\, 100 g claras\, 1 bagel (de proteína se houver)\, ½ a
+ bacate\, 1 fruta\, 5 g creatina\n38 g proteína · ≈ 730 kcal
 END:VEVENT
 BEGIN:VEVENT
 UID:coach-qua-1000portugal-num-cafe-ou-em-casa-da-namorada@coach-pedro
@@ -511,12 +511,13 @@ DESCRIPTION:Chili com arroz (caixa congelada no sábado)\n40 g proteína ·
   ≈ 680 kcal
 END:VEVENT
 BEGIN:VEVENT
-UID:coach-qua-1400compras-de-reposic-a-o-frango-salma-o-fr@coach-pedro
+UID:coach-qua-1400compras-de-reposic-a-o-frango-salma-o-io@coach-pedro
 DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/New_York:20261111T140000
 DURATION:PT60M
 RRULE:FREQ=WEEKLY;BYDAY=WE
-SUMMARY:🎒 Compras de reposição: frango\, salmão\, fruta
+SUMMARY:🎒 Compras de reposição: frango\, salmão\, iogurte grego\, cot
+ tage\, fruta
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
@@ -1118,8 +1119,8 @@ DTSTART;TZID=America/New_York:20261114T103000
 DURATION:PT30M
 RRULE:FREQ=WEEKLY;BYDAY=SA
 SUMMARY:🍽️ Cozinhar e comer o pequeno-almoço
-DESCRIPTION:3 ovos\, 100 g claras\, 1 bagel de proteína\, ½ abacate\, 1 f
- ruta\, 5 g creatina\n42 g proteína · ≈ 700 kcal
+DESCRIPTION:3 ovos\, 100 g claras\, 1 bagel (de proteína se houver)\, ½ a
+ bacate\, 1 fruta\, 5 g creatina\n38 g proteína · ≈ 730 kcal
 END:VEVENT
 BEGIN:VEVENT
 UID:coach-sab-1100livre-ou-portugal-se-precisar@coach-pedro
@@ -1252,8 +1253,8 @@ DTSTART;TZID=America/New_York:20261115T062500
 DURATION:PT25M
 RRULE:FREQ=WEEKLY;BYDAY=SU
 SUMMARY:🍽️ Cozinhar e comer o pequeno-almoço
-DESCRIPTION:4 ovos\, 1 bagel de proteína\, ½ abacate\, 1 fruta\, 5 g crea
- tina\n37 g proteína · ≈ 720 kcal
+DESCRIPTION:4 ovos\, 1 bagel (de proteína se houver)\, ½ abacate\, 1 frut
+ a\, 5 g creatina\n33 g proteína · ≈ 750 kcal
 END:VEVENT
 BEGIN:VEVENT
 UID:coach-dom-0650mala-te-rmica-com-gelo-mochila-e-garrafa@coach-pedro
