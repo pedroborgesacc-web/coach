@@ -92,28 +92,49 @@ function Shopping() {
   const s = useStore()
   const week = weekStart(todayISO())
   const done = s.shopping[week] ?? []
+  const sections = [...new Set(shopping.map((x) => x.sec))]
+  const base = shopping.filter((x) => !x.extra)
+  const total = base.reduce((t, x) => t + x.usd, 0)
+  const inCart = shopping.filter((x) => done.includes(x.item)).reduce((t, x) => t + x.usd, 0)
+  const doneBase = base.filter((x) => done.includes(x.item)).length
   return (
     <div className="mt-4 space-y-3">
-      <div className="card">
-        <div className="mb-2 flex items-center justify-between">
+      <div className="card sticky top-2 z-10">
+        <div className="flex items-center justify-between">
           <div>
             <h2 className="text-lg font-bold">Lista da semana</h2>
             <div className="text-xs muted">Semana de {fmtDate(week)} · reinicia à segunda</div>
           </div>
-          <span className="chip">{done.length}/{shopping.length}</span>
+          <span className="chip">{doneBase}/{base.length}</span>
         </div>
-        <ul>
-          {shopping.map((item) => {
-            const c = done.includes(item)
-            return (
-              <li key={item} className="flex items-center gap-3 py-1.5" onClick={() => s.toggleShop(week, item)}>
-                <Check checked={c} onChange={() => s.toggleShop(week, item)} color={categories.comida.color} label={item} />
-                <span className={`text-[15px] ${c ? 'line-through muted' : ''}`}>{item}</span>
-              </li>
-            )
-          })}
-        </ul>
-        {done.length > 0 && <button className="btn-ghost mt-3 w-full" onClick={() => s.resetShop(week)}>Limpar marcações</button>}
+        <div className="mt-2 flex justify-between text-sm">
+          <span>No carrinho: <b className="tabular-nums">~${inCart}</b></span>
+          <span className="muted">Base da semana: ~${total}</span>
+        </div>
+      </div>
+      {sections.map((sec) => (
+        <div key={sec} className="card">
+          <h3 className="mb-1 font-bold">{sec}</h3>
+          {sec === 'Só se já acabou' && <p className="mb-1 text-xs muted">Duram mais de uma semana: vê em casa o que falta.</p>}
+          <ul>
+            {shopping.filter((x) => x.sec === sec).map(({ item, usd }) => {
+              const c = done.includes(item)
+              return (
+                <li key={item} className="flex items-center gap-3 py-1.5" onClick={() => s.toggleShop(week, item)}>
+                  <Check checked={c} onChange={() => s.toggleShop(week, item)} color={categories.comida.color} label={item} />
+                  <span className={`flex-1 text-[15px] ${c ? 'line-through muted' : ''}`}>{item}</span>
+                  <span className="text-xs tabular-nums muted">${usd}</span>
+                </li>
+              )
+            })}
+          </ul>
+        </div>
+      ))}
+      {done.length > 0 && <button className="btn-ghost w-full" onClick={() => s.resetShop(week)}>Limpar marcações</button>}
+      <div className="card text-sm">
+        <h2 className="font-bold">Orgânico ou normal?</h2>
+        <p className="mt-1 muted">Normal em quase tudo: carne, ovos, lacticínios, congelados, banana, tangerina e abacate. A diferença nutricional é mínima e o orgânico custa 1,5–2×. Se quiseres gastar em orgânico, só nos pimentos (estão na lista dos que levam mais pesticida); senão, lava-os bem.</p>
+        <p className="mt-2 muted">Marca da loja (Publix, Great Value) poupa ~20%. Preços são estimativas.</p>
       </div>
       <div className="card text-sm">
         <h2 className="font-bold">Trocas permitidas</h2>

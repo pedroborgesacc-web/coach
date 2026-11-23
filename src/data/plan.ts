@@ -85,14 +85,14 @@ export const categories: Record<CategoryId, { label: string; color: string }> = 
 // Refeições repetidas (para não haver gralhas entre dias)
 const M = {
   bananaCafe: { desc: 'Banana e café', p: 0, kcal: 110 },
-  oats: { desc: 'Overnight oats (200 g skyr, 1 scoop proteína, 50 g aveia, frutos vermelhos), 2 ovos cozidos, 5 g creatina', p: 50, kcal: 620 },
+  oats: { desc: 'Overnight oats (200 g skyr, 1 scoop proteína, 50 g aveia, ½ banana), 2 ovos cozidos, 5 g creatina', p: 50, kcal: 620 },
   almocoFrangoArroz: { desc: '180 g frango, 100 g arroz, legumes, 1 colher azeite', p: 45, kcal: 700 },
   wrap: { desc: 'Wrap integral com 120 g frango, queijo fresco e alface', p: 35, kcal: 420 },
   skyrBanana: { desc: '200 g skyr, 1 banana, 25 g amêndoas', p: 25, kcal: 385 },
-  ceia: { desc: '200 g cottage com frutos vermelhos', p: 25, kcal: 240 },
+  ceia: { desc: '200 g cottage com 1 tangerina', p: 25, kcal: 240 },
   ovosCasa: { desc: '3 ovos, 100 g claras, 2 tostas integrais, ½ abacate, 1 fruta, 5 g creatina', p: 35, kcal: 600 },
   chili: { desc: 'Chili de carne magra com 100 g arroz e legumes', p: 40, kcal: 680 },
-  lancheSkyr: { desc: 'Skyr, 40 g aveia, mirtilos, 1 scoop proteína, 1 colher manteiga de amendoim', p: 40, kcal: 520 },
+  lancheSkyr: { desc: 'Skyr, 40 g aveia, ½ banana, 1 scoop proteína, 1 colher manteiga de amendoim', p: 40, kcal: 520 },
   salmao: { desc: '150 g salmão, 300 g batata, legumes', p: 35, kcal: 590 },
 }
 
@@ -375,7 +375,7 @@ export const mealPreps: Record<'sab' | 'qua', { title: string; window: string; s
   sab: {
     title: 'Meal prep de sábado', window: '15:00–17:00',
     steps: [
-      { t: '15:00', text: 'Forno a 200 °C: 1,5 kg batata e 2 tabuleiros de legumes (brócolos, curgete, pimento, cebola)', min: 38 },
+      { t: '15:00', text: 'Forno a 200 °C: 1,5 kg batata e 2 tabuleiros de legumes congelados + 2 pimentos e 1 cebola às tiras', min: 38 },
       { t: '15:10', text: '1,2 kg peito de frango temperado (sal, alho, paprika, limão) ao forno', min: 24 },
       { t: '15:15', text: 'Cozer 400 g arroz', min: 15 },
       { t: '15:20', text: 'Chili: 500 g carne picada magra, cebola, alho, 1 lata de feijão, 1 lata de tomate, especiarias', min: 25 },
@@ -388,7 +388,7 @@ export const mealPreps: Record<'sab' | 'qua', { title: string; window: string; s
   qua: {
     title: 'Meal prep de quarta', window: '15:00–16:30',
     steps: [
-      { t: '15:00', text: 'Forno a 200 °C: 1 kg batata e 1 tabuleiro de legumes', min: 38 },
+      { t: '15:00', text: 'Forno a 200 °C: 1 kg batata e 1 tabuleiro de legumes congelados + 1 pimento', min: 38 },
       { t: '15:10', text: '700 g peito de frango temperado (sal, alho, paprika, limão) ao forno', min: 24 },
       { t: '15:15', text: 'Cozer 250 g arroz', min: 15 },
       { t: '15:15', text: 'Cozer 4 ovos', min: 10 },
@@ -399,39 +399,46 @@ export const mealPreps: Record<'sab' | 'qua', { title: string; window: string; s
   },
 }
 
-export const shopping: string[] = [
-  'Peito de frango 2 kg',
-  'Carne picada magra (5%) 500 g',
-  'Bife / vazia magra 400 g',
-  'Salmão 4 postas (~600 g)',
-  'Peru fatiado 300 g',
-  'Ovos 30',
-  'Claras líquidas 1 L',
-  'Skyr ou iogurte grego magro 3 kg',
-  'Cottage 1 kg',
-  'Queijo fresco 2',
-  'Proteína em pó (~1 kg por mês)',
-  'Arroz 1 kg',
-  'Batata e batata-doce 3 kg',
-  'Aveia 500 g',
-  'Pão integral 1',
-  'Tortilhas integrais 1',
-  'Feijão em lata 1',
-  'Tomate em lata 1',
-  'Legumes variados 3 kg',
-  'Bananas 12',
-  'Frutos vermelhos congelados 1 kg',
-  'Fruta da época 1 kg',
-  'Abacates 4',
-  'Amêndoas 1',
-  'Manteiga de amendoim 1',
-  'Azeite, alho, limão, especiarias',
+// Lista SEMANAL (reinicia à segunda). usd = estimativa em Miami (Publix/Walmart, marca normal).
+// extra: true = só comprar se já tiver acabado (dura mais de 1 semana).
+export interface ShopItem { sec: string; item: string; usd: number; extra?: boolean }
+export const shopping: ShopItem[] = [
+  { sec: 'Talho e peixe', item: 'Peito de frango 2 kg (~4,4 lb)', usd: 15 },
+  { sec: 'Talho e peixe', item: 'Carne picada 95% magra 500 g (1 lb)', usd: 7 },
+  { sec: 'Talho e peixe', item: 'Bife magro 200 g (sirloin)', usd: 5 },
+  { sec: 'Talho e peixe', item: 'Salmão 2 postas (~300 g; congelado é mais barato)', usd: 8 },
+  { sec: 'Ovos e lacticínios', item: 'Ovos 18', usd: 5 },
+  { sec: 'Ovos e lacticínios', item: 'Claras líquidas 16 oz (~470 ml)', usd: 4 },
+  { sec: 'Ovos e lacticínios', item: 'Skyr ou grego 0% — 3 potes de 32 oz (~2,7 kg)', usd: 18 },
+  { sec: 'Ovos e lacticínios', item: 'Cottage low fat — 2 potes de 24 oz', usd: 8 },
+  { sec: 'Ovos e lacticínios', item: 'Queijo fresco (queso fresco) 1', usd: 4 },
+  { sec: 'Congelados', item: 'Legumes congelados — 4 sacos (brócolos, mistura, couve-flor, feijão-verde)', usd: 8 },
+  { sec: 'Fruta e frescos', item: 'Bananas ~10', usd: 3 },
+  { sec: 'Fruta e frescos', item: 'Tangerinas 1 saco (~2 lb)', usd: 5 },
+  { sec: 'Fruta e frescos', item: 'Pimentos 3', usd: 4 },
+  { sec: 'Fruta e frescos', item: 'Cebolas 2', usd: 2 },
+  { sec: 'Fruta e frescos', item: 'Abacates 2', usd: 3 },
+  { sec: 'Fruta e frescos', item: 'Alface 1', usd: 2 },
+  { sec: 'Fruta e frescos', item: 'Limões 2', usd: 1 },
+  { sec: 'Fruta e frescos', item: 'Batata 5 lb (~2,3 kg)', usd: 5 },
+  { sec: 'Despensa', item: 'Tortilhas integrais 1 pacote', usd: 4 },
+  { sec: 'Despensa', item: 'Pão integral 1', usd: 4 },
+  { sec: 'Despensa', item: 'Feijão 1 lata + tomate 1 lata', usd: 3 },
+  { sec: 'Só se já acabou', item: 'Arroz 2 lb (~900 g, dá ~1,5 semanas)', usd: 3, extra: true },
+  { sec: 'Só se já acabou', item: 'Aveia 18 oz (~500 g, dá ~1,5 semanas)', usd: 4, extra: true },
+  { sec: 'Só se já acabou', item: 'Amêndoas 1 saco pequeno', usd: 6, extra: true },
+  { sec: 'Só se já acabou', item: 'Manteiga de amendoim 1', usd: 4, extra: true },
+  { sec: 'Só se já acabou', item: 'Proteína em pó 2 lb (dá ~5 semanas)', usd: 35, extra: true },
+  { sec: 'Só se já acabou', item: 'Azeite, alho, paprika, especiarias', usd: 8, extra: true },
+  { sec: 'Só se já acabou', item: 'Atum em lata 2 (proteína de emergência)', usd: 3, extra: true },
 ]
 
 export const swaps: string[] = [
   'Frango ↔ peru ↔ atum ↔ pescada',
   'Arroz ↔ massa ↔ batata ↔ batata-doce',
   'Skyr ↔ iogurte grego magro ↔ cottage',
+  'Frutos vermelhos ↔ banana ↔ tangerina',
+  'Legumes frescos ↔ legumes congelados (mesmo valor nutricional)',
 ]
 
 export const measurements = {

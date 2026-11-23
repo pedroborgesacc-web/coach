@@ -98,9 +98,8 @@ DTSTART;TZID=America/New_York:20261116T095000
 DURATION:PT10M
 RRULE:FREQ=WEEKLY;BYDAY=MO
 SUMMARY:🍽️ Pequeno-almoço no café
-DESCRIPTION:Overnight oats (200 g skyr\, 1 scoop proteína\, 50 g aveia\, f
- rutos vermelhos)\, 2 ovos cozidos\, 5 g creatina\n50 g proteína · ≈ 62
- 0 kcal
+DESCRIPTION:Overnight oats (200 g skyr\, 1 scoop proteína\, 50 g aveia\, 
+ ½ banana)\, 2 ovos cozidos\, 5 g creatina\n50 g proteína · ≈ 620 kcal
 END:VEVENT
 BEGIN:VEVENT
 UID:coach-seg-1000portugal-chamadas-clientes-equipa-15h-16@coach-pedro
@@ -185,8 +184,7 @@ DTSTART;TZID=America/New_York:20261116T223500
 DURATION:PT10M
 RRULE:FREQ=WEEKLY;BYDAY=MO
 SUMMARY:🍽️ Ceia
-DESCRIPTION:200 g cottage com frutos vermelhos\n25 g proteína · ≈ 240 k
- cal
+DESCRIPTION:200 g cottage com 1 tangerina\n25 g proteína · ≈ 240 kcal
 END:VEVENT
 BEGIN:VEVENT
 UID:coach-seg-2245preparar-terc-a@coach-pedro
@@ -318,9 +316,8 @@ DTSTART;TZID=America/New_York:20261110T095000
 DURATION:PT10M
 RRULE:FREQ=WEEKLY;BYDAY=TU
 SUMMARY:🍽️ Pequeno-almoço no café
-DESCRIPTION:Overnight oats (200 g skyr\, 1 scoop proteína\, 50 g aveia\, f
- rutos vermelhos)\, 2 ovos cozidos\, 5 g creatina\n50 g proteína · ≈ 62
- 0 kcal
+DESCRIPTION:Overnight oats (200 g skyr\, 1 scoop proteína\, 50 g aveia\, 
+ ½ banana)\, 2 ovos cozidos\, 5 g creatina\n50 g proteína · ≈ 620 kcal
 END:VEVENT
 BEGIN:VEVENT
 UID:coach-ter-1000portugal-chamadas-clientes-equipa-15h-16@coach-pedro
@@ -405,8 +402,7 @@ DTSTART;TZID=America/New_York:20261110T223500
 DURATION:PT10M
 RRULE:FREQ=WEEKLY;BYDAY=TU
 SUMMARY:🍽️ Ceia
-DESCRIPTION:200 g cottage com frutos vermelhos\n25 g proteína · ≈ 240 k
- cal
+DESCRIPTION:200 g cottage com 1 tangerina\n25 g proteína · ≈ 240 kcal
 END:VEVENT
 BEGIN:VEVENT
 UID:coach-ter-2245preparar-quarta@coach-pedro
@@ -539,8 +535,8 @@ DTSTART;TZID=America/New_York:20261111T170000
 DURATION:PT30M
 RRULE:FREQ=WEEKLY;BYDAY=WE
 SUMMARY:🍽️ Lanche
-DESCRIPTION:Skyr\, 40 g aveia\, mirtilos\, 1 scoop proteína\, 1 colher man
- teiga de amendoim\n40 g proteína · ≈ 520 kcal
+DESCRIPTION:Skyr\, 40 g aveia\, ½ banana\, 1 scoop proteína\, 1 colher ma
+ nteiga de amendoim\n40 g proteína · ≈ 520 kcal
 END:VEVENT
 BEGIN:VEVENT
 UID:coach-qua-1730livre@coach-pedro
@@ -586,8 +582,7 @@ DTSTART;TZID=America/New_York:20261111T223000
 DURATION:PT30M
 RRULE:FREQ=WEEKLY;BYDAY=WE
 SUMMARY:🍽️ Ceia
-DESCRIPTION:200 g cottage com frutos vermelhos\n25 g proteína · ≈ 240 k
- cal
+DESCRIPTION:200 g cottage com 1 tangerina\n25 g proteína · ≈ 240 kcal
 END:VEVENT
 BEGIN:VEVENT
 UID:coach-qua-2300higiene-telemo-vel-fora-do-quarto-alarme@coach-pedro
@@ -700,9 +695,8 @@ DTSTART;TZID=America/New_York:20261112T095000
 DURATION:PT10M
 RRULE:FREQ=WEEKLY;BYDAY=TH
 SUMMARY:🍽️ Pequeno-almoço no café
-DESCRIPTION:Overnight oats (200 g skyr\, 1 scoop proteína\, 50 g aveia\, f
- rutos vermelhos)\, 2 ovos cozidos\, 5 g creatina\n50 g proteína · ≈ 62
- 0 kcal
+DESCRIPTION:Overnight oats (200 g skyr\, 1 scoop proteína\, 50 g aveia\, 
+ ½ banana)\, 2 ovos cozidos\, 5 g creatina\n50 g proteína · ≈ 620 kcal
 END:VEVENT
 BEGIN:VEVENT
 UID:coach-qui-1000portugal-e-estudo-15h-17h45-lisboa-@coach-pedro
@@ -804,8 +798,7 @@ DTSTART;TZID=America/New_York:20261112T223500
 DURATION:PT10M
 RRULE:FREQ=WEEKLY;BYDAY=TH
 SUMMARY:🍽️ Ceia
-DESCRIPTION:200 g cottage com frutos vermelhos\n25 g proteína · ≈ 240 k
- cal
+DESCRIPTION:200 g cottage com 1 tangerina\n25 g proteína · ≈ 240 kcal
 END:VEVENT
 BEGIN:VEVENT
 UID:coach-qui-2245preparar-sexta@coach-pedro
@@ -924,9 +917,8 @@ DTSTART;TZID=America/New_York:20261113T095000
 DURATION:PT10M
 RRULE:FREQ=WEEKLY;BYDAY=FR
 SUMMARY:🍽️ Pequeno-almoço no café
-DESCRIPTION:Overnight oats (200 g skyr\, 1 scoop proteína\, 50 g aveia\, f
- rutos vermelhos)\, 2 ovos cozidos\, 5 g creatina\n50 g proteína · ≈ 62
- 0 kcal
+DESCRIPTION:Overnight oats (200 g skyr\, 1 scoop proteína\, 50 g aveia\, 
+ ½ banana)\, 2 ovos cozidos\, 5 g creatina\n50 g proteína · ≈ 620 kcal
 END:VEVENT
 BEGIN:VEVENT
 UID:coach-sex-1000portugal-chamadas-clientes-equipa-15h-16@coach-pedro
@@ -1011,8 +1003,7 @@ DTSTART;TZID=America/New_York:20261113T223500
 DURATION:PT10M
 RRULE:FREQ=WEEKLY;BYDAY=FR
 SUMMARY:🍽️ Ceia
-DESCRIPTION:200 g cottage com frutos vermelhos\n25 g proteína · ≈ 240 k
- cal
+DESCRIPTION:200 g cottage com 1 tangerina\n25 g proteína · ≈ 240 kcal
 END:VEVENT
 BEGIN:VEVENT
 UID:coach-sex-2245preparar-sa-bado@coach-pedro
@@ -1174,8 +1165,8 @@ DTSTART;TZID=America/New_York:20261114T171500
 DURATION:PT15M
 RRULE:FREQ=WEEKLY;BYDAY=SA
 SUMMARY:🍽️ Lanche
-DESCRIPTION:Skyr\, 40 g aveia\, mirtilos\, 1 scoop proteína\, 1 colher man
- teiga de amendoim\n40 g proteína · ≈ 520 kcal
+DESCRIPTION:Skyr\, 40 g aveia\, ½ banana\, 1 scoop proteína\, 1 colher ma
+ nteiga de amendoim\n40 g proteína · ≈ 520 kcal
 END:VEVENT
 BEGIN:VEVENT
 UID:coach-sab-1730livre@coach-pedro
@@ -1220,8 +1211,7 @@ DTSTART;TZID=America/New_York:20261114T213000
 DURATION:PT15M
 RRULE:FREQ=WEEKLY;BYDAY=SA
 SUMMARY:🍽️ Ceia
-DESCRIPTION:200 g cottage com frutos vermelhos\n25 g proteína · ≈ 240 k
- cal
+DESCRIPTION:200 g cottage com 1 tangerina\n25 g proteína · ≈ 240 kcal
 END:VEVENT
 BEGIN:VEVENT
 UID:coach-sab-2145higiene-telemo-vel-fora-alarme-6-15@coach-pedro
